@@ -1,4 +1,4 @@
-[System Introduction]
+[System Purpose]
 1. For the bank  
    The traditional counter service of bank exposes some problems with the improvement of social life.The biggest problem is low efficiency, 
 because the space and employees are limited. Besides, there are some inconvenient processes,including taking number paper and signature. 
@@ -24,6 +24,21 @@ information will also change.
 (2) The account is consist of 19 digits and the password is consist of 6 digits.
 (3) The withdrawal at one time can not be more than 2500 yuan, the daily limit is 20000 yuan.
 (4) The type of balance and amount of transferred money is "float", which are rounded up to two decimal digits.
+
+[System user role]
+  There are 4 roles in the ATM system.
+1. User. The user who has an account can withdraw、deposit、transfer and query.
+2. Administrator. The administrator mainly processes some fortuitous event for the ATM system. For example:When the user enters wrong
+password over 3 times. The system will forbid the user to continue to transact.And the user should contact the administrator if he wants 
+to login the system and do some transaction.When the balance of the ATM is less than 1000 yuan, the system feedbacks to the 
+administrator automatically.
+3. Mechanic. The mechanic is to repair the ATM system when it is out of control and maintain the system regularly.
+4. The bank computer. The ATM system shares the same database with the bank computers. They will update the account information 
+synchronously if users do transaction on one of the two ways.
+
+
+
+
 
 
 
