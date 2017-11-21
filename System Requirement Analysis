@@ -1,6 +1,20 @@
 [Function Description]
-In the ATM system, every user can create a account,and send them the bank card which contain the card number and username.The account store the user’s personal information,deposit /withdrawal information and balance.Every user which have the bank card can deposit/withdrawal and check the balance through ATM machine.
-When we use the ATM machine,we need insert the bank card,and enter the password under the prompt of the system interface.It is judged by the system whether the account is valid or not.If the password is not correct,then it will let the user to enter the password again.If the password is incorrect for three times,the system will automatically exit the service.If the password is correct,the system will enter the interface of selecting service type:deposit money/withdrawal money/check the balance.
-1.Withdrawal money:after the system confirm withdrawal request,it will ask the amount.The system interface show the enter amount request.After user enter the amount the system will send the confirm request.User click confirm,the system will send the request to currency counting machine,then the currency counting machine will out of the money.After user take the money,the system will automatic update balance.when user choose finish service,the system will exit out the bank card.
-2.Deposit money:After the system confirm the request, system enter into the deposit interface, the user will deposit into the machine, the system prompts the currency-counting machine for counting,then the system records and update the balance . The system shows deposit is completed, the user clicks exit,then the system will withdraw bank card.
-3.Check the balance.Users choose to query the balance service, the system confirms the request, according to the user information to find the balance, and displayed on the interface.
+In the ATM system, every user can create a account,and send them the bank card which contain the card number and username。
+The account store the user’s personal information,deposit /withdrawal information and balance.
+Every user which have the bank card can deposit/withdrawal and check the balance through ATM machine.
+When we use the ATM machine,we need insert the bank card,and enter the password under the prompt of the system interface.
+It is judged by the system whether the account is valid or not.If the password is not correct,then it will let the user to enter the 
+password again.If the password is incorrect for three times,the system will automatically exit the service.
+If the password is correct,the system will enter the interface of selecting service type:deposit money/withdrawal money/check the balance.
+1.Withdrawal money:
+  after the system confirm withdrawal request,it will ask the amount.
+The system interface show the enter amount request.After user enter the amount the system will send the confirm request.
+User click confirm,the system will send the request to currency counting machine,then the currency counting machine will out of the money.
+After user take the money,the system will automatic update balance.when user choose finish service,the system will exit out the bank card.
+2.Deposit money:
+  After the system confirm the request, system enter into the deposit interface, the user will deposit into the machine, the system prompts
+the currency-counting machine for counting,then the system records and update the balance . The system shows deposit is completed, the user
+clicks exit,then the system will withdraw bank card.
+3.Check the balance：
+  Users choose to query the balance service, the system confirms the request, according to the user information to find the balance, and 
+displayed on the interface.
