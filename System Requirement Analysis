@@ -25,3 +25,23 @@ displayed on the interface.
 transfer amount.the amount will be compared with the account balance,if the amount entered by the user is larger than account balance,the 
 system will display the wrong information,and turn back to operate interface.After the user enter the correct amount,the system will send 
 the request to the bank computer,the database will update the balance and save the information.
+
+Functional requirements:
+■ Provide Withdrawal money services
+■ Provide Deposit money services
+■ Provide Check the balance services
+■ Provide Transfer money services
+
+Nonfunctional requirements:
+■ Level of reliability to ensure adequate service guarantees
+■ Sufficient accuracy to support current and future user needs
+■ Functional redundancy in critical system capabilities
+■ Easily maintained to minimize maintenance costs
+■ Extensible to support enhancement of system functionality
+■ Long service life
+
+Constraints:
+■ Compatibility with international standards
+■ Maximal use of COTS hardware and software   
+
+Reference resources:OOA and design with application.
