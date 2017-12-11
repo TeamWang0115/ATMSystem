@@ -42,6 +42,20 @@ Nonfunctional requirements:
 
 Constraints:
 ■ Compatibility with international standards
-■ Maximal use of COTS hardware and software   
+■ Maximal use of COTS hardware and software  
 
 Reference resources:OOA and design with application.
+ 
+[System Assumtion]
+Malicious operation assumption:
+  In the normal working environment, there will be different ways to use the system, and staff with different purposes, in the design, 
+  should have the protection policy for the different users of malicious operation measures.
+Extreme data assumption :
+  In the software development process, the input data may have a certain error, beyond the definition of the data to make its operation
+invalid, we need to the design of its extreme data entry with fault tolerance processing ability or correct operation tips.  In order for
+its system to function properly, including error handling of data types and the data itself beyond the normal range of the original definition.
+ Environment Assumption:
+Software environments may encounter some problems with operating systems 、related  hardware drivers, because applications are running 
+too slowly, and some data and files are lost due to unexpected or intrusion of other programs.
+Hardware environment will be affected by computer and its peripheral equipment, environmental temperature, power supply, electromagnetic
+interference and other issues.
