@@ -26,13 +26,13 @@ transfer amount.the amount will be compared with the account balance,if the amou
 system will display the wrong information,and turn back to operate interface.After the user enter the correct amount,the system will send 
 the request to the bank computer,the database will update the balance and save the information.
 
-Functional requirements:
+Functional requirements[1]:
 ■ Provide Withdrawal money services
 ■ Provide Deposit money services
 ■ Provide Check the balance services
 ■ Provide Transfer money services
 
-Nonfunctional requirements:
+Nonfunctional requirements[1]:
 ■ Level of reliability to ensure adequate service guarantees
 ■ Sufficient accuracy to support current and future user needs
 ■ Functional redundancy in critical system capabilities
@@ -40,11 +40,10 @@ Nonfunctional requirements:
 ■ Extensible to support enhancement of system functionality
 ■ Long service life
 
-Constraints:
+Constraints[1]:
 ■ Compatibility with international standards
 ■ Maximal use of COTS hardware and software  
 
-Reference resources:OOA and design with application.
  
 [System Assumtion]
 Malicious operation assumption:
@@ -59,3 +58,5 @@ Software environments may encounter some problems with operating systems 、rela
 too slowly, and some data and files are lost due to unexpected or intrusion of other programs.
 Hardware environment will be affected by computer and its peripheral equipment, environmental temperature, power supply, electromagnetic
 interference and other issues.
+
+[1]Reference resources:OOA and design with application.
