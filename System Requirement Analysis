@@ -1,3 +1,20 @@
+[Steps]
+Step 1
+- the user needs to insert a bank card before entering the system.
+- get the account information from the bank card.
+- prompt to enter  password.
+- verify the password is correct, if is error, prompt user to reinput
+Step 2
+- the interface displays the operational transaction options.
+- the next operation is based on the user selection.
+Step 3
+- check the balance of the account to determine whether a transaction can be performed successfully.
+- if failed, show the balance is insufficient.
+Step 4
+- display confirmation information to the user.
+- at the end of the operation, the user confirms to eject card.
+
+
 [Function Description]
 In the ATM system, every user can create a account,and send them the bank card which contain the card number and username。
 The account store the user’s personal information,deposit /withdrawal information and balance.
