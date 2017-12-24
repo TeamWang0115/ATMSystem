@@ -16,8 +16,7 @@ and have a deep understanding to this course.
    ATM System is close to our life. It provides many businesses, includingwithdrawing、depositing、transferring and querying. These 
 businesses occur at any time in our daily life. The person who has applied a bank account is called depositor. One depositor can apply 
 for several accounts in the bank. The depositor can depositmoney into an account, or withdraw it from his account, or transfer the money
-from one account to another, and query their balance and transaction records at any time. In addition, depositors can also change their 
-password. Every time when the amount of money or password changes, the database of the bank which store the depositors and accounts 
+from one account to another, and query their balance and transaction records at any time.  Every time when the amount of money or password changes, the database of the bank which store the depositors and accounts 
 information will also change.
 2. Dynamic data
 (1) In the withdrawal and deposit process, the system only support transaction amount is the multiple of 100 yuan.
